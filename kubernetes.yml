@@ -8,7 +8,7 @@ spec:
   - ReadWriteOnce
   resources:
     requests:
-      storage: 64Gi
+      storage: 990Gi
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -33,7 +33,7 @@ spec:
         - name: VERSION
           value: "11"
         - name: DISK_SIZE
-          value: "64G"
+          value: "990G"
         ports:
           - containerPort: 8006
             name: http
