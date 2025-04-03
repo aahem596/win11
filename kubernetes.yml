@@ -31,7 +31,7 @@ spec:
         image: dockurr/windows
         env:
         - name: VERSION
-          value: "xp"
+          value: "7e"
         - name: DISK_SIZE
           value: "990G"
         ports:
